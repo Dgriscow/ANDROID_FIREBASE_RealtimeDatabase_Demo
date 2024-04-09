@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/appnav"
+    app:startDestination="@id/personFragment">
+
+    <fragment
+        android:id="@+id/personFragment"
+        android:name="com.example.android_firebase_realtimedatabase_demo.PersonFragment"
+        android:label="fragment_person_list"
+        tools:layout="@layout/fragment_person_list" >
+        <action
+            android:id="@+id/action_personFragment_to_addUserEntryFragment"
+            app:destination="@id/addUserEntryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addUserEntryFragment"
+        android:name="com.example.android_firebase_realtimedatabase_demo.addUserEntryFragment"
+        android:label="fragment_add_user_entry"
+        tools:layout="@layout/fragment_add_user_entry" >
+        <action
+            android:id="@+id/action_addUserEntryFragment_to_personFragment"
+            app:destination="@id/personFragment" />
+    </fragment>
+</navigation>

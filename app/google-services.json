@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "273866830111",
+    "project_id": "androidclouddatabasedemos",
+    "storage_bucket": "androidclouddatabasedemos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273866830111:android:285dc28be2b16eac2bc02a",
+        "android_client_info": {
+          "package_name": "com.example.android_firebase_realtimedatabase_demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4GLJK4NdbJfjaCdaY4Alqqg8B8jI1lMY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
